@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Matt Morris - Aramark Home</title>
+    <meta charset="utf-8">
+    <!-- viewport for bootstrap css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <script data-require="jquery" data-semver="2.1.3" src="http://code.jquery.com/jquery-2.1.3.js"></script>
+    <script data-require="bootstrap" data-semver="3.2.0" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.js"></script>
+    
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="aramark.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css">
+    
+    
+    
+    <!-- icons -->
+    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script type="text/javascript">
+      function checkForNumber(fieldValue) {
+        var numberCheck = isNaN(fieldValue);
+        if (numberCheck == true) {
+          window.alert("You must enter a numeric value!");
+          return false;
+        } else
+          return true;
+      }
+
+      function confirmPassword() {
+        if (document.forms[0].password_confirm.value != document.forms[0].password.value) {
+          window.alert("You did not enter the same password!");
+          document.forms[0].password.focus();
+        }
+      }
+
+      function billAutomatically() {
+        for (var i = 0; i < document.forms[0].delivery.length; ++i) {
+          if (document.forms[0].delivery[i].checked == true) {
+            document.forms[0].delivery[i].checked = false;
+            break;
+          }
+        }
+      }
+
+      function billByIssue() {
+        for (var i = 0; i < document.forms[0].autoRenew.length; ++i) {
+          if (document.forms[0].autoRenew[i].checked == true) {
+            document.forms[0].autoRenew[i].checked = false;
+            break;
+          }
+        }
+      }
+
+      function sameShippingInfo() {
+        if (document.forms[0].elements[5].checked == true) {
+          document.forms[0].name_shipping.value = document.forms[0].name_billing.value;
+          document.forms[0].address_shipping.value = document.forms[0].address_billing.value;
+          document.forms[0].city_shipping.value = document.forms[0].city_billing.value;
+          document.forms[0].state_shipping.value = document.forms[0].state_billing.value;
+          document.forms[0].zip_shipping.value = document.forms[0].zip_billing.value;
+        } else {
+          document.forms[0].name_shipping.value = "";
+          document.forms[0].address_shipping.value = "";
+          document.forms[0].city_shipping.value = "";
+          document.forms[0].state_shipping.value = "";
+          document.forms[0].zip_shipping.value = "";
+        }
+      }
+
+      function confirmSubmit() {
+        if (document.forms[0].name_billing.value == "" || document.forms[0].address_billing.value == "" || document.forms[0].city_billing.value == "" || document.forms[0].state_billing.value == "" || document.forms[0].zip_billing.value == "") {
+          window.alert("You must enter your billing information.");
+          return false;
+        } else if (document.forms[0].name_shipping.value == "" || document.forms[0].address_shipping.value == "" || document.forms[0].city_shipping.value == "" || document.forms[0].state_shipping.value == "" || document.forms[0].zip_shipping.value == "") {
+          window.alert("You must enter your shipping information.");
+          return false;
+        } else if (document.forms[0].area.value == "" || document.forms[0].exchange.value == "" || document.forms[0].phone.value == "") {
+          window.alert("You must enter your telephone number.");
+          return false;
+        } else if (document.forms[0].userName.value == "") {
+          window.alert("You must enter a user name.");
+          return false;
+        } else if (document.forms[0].password.value == "" || document.forms[0].password_confirm.value == "") {
+          window.alert("You must enter a password.");
+          return false;
+        }
+        var deliverySelected = false;
+        for (var i = 0; i < 4; ++i) {
+          if (document.forms[0].delivery[i].checked == true) {
+            deliverySelected = true;
+            break;
+          }
+        }
+        for (var j = 0; j < 2; ++j) {
+          if (document.forms[0].autoRenew[j].checked == true) {
+            deliverySelected = true;
+            break;
+          }
+        }
+        if (deliverySelected != true) {
+          window.alert("You must select a delivery rate option.");
+          return false;
+        }
+        for (var k = 0; k < document.forms[0].journals.length; ++k) {
+          document.forms[0].journals.options[k].selected = true;
+        }
+        return true;
+      }
+
+      function confirmReset() {
+        var resetForm = window.confirm("Are you sure you want to reset the form?");
+        if (resetForm == true)
+          return true;
+        return false;
+      }
+    </script>
+    
+  </head>
+    <!-- begin intialization of ungular application -->
+    <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container-fluid">
+  
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#menu-toggle" id="menu-toggle">Toggle Menu</a>
+          </div>
+          <!-- /.navbar-header -->
+  
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div style="margin-left: 15%" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="http://www.aramark.com/">Aramark Home</a></li>
+              <li><a href="http://phx.corporate-ir.net/phoenix.zhtml?c=130030&p=irol-financialreports">Aramark Financial Reports</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+      <!-- /.navbar -->    
+
+       <div id="wrapper">
+         
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Links
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.oracle.com/index.html">Oracle</a>
+                </li>
+                <li>
+                    <a href="http://www.aramark.com.mx/">Aramark Mexico</a>
+                </li>
+                <li>
+                    
+                    <!-- external javascript for validation 
+
+                          IT FIT BETTER HERE -->  
+                    <script src="../validation.js"></script>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- START container -->
+      
+      <div id="page-content-wrapper">
+      <div class="container">
+  
+        <!-- header -->
+        <div class="page-header">
+          <h2><b>Aramark Order Form</b><a href="morrisProject2.html"><img style="float: right" src="images/aramark_logo.png" alt="ARAMARK"></a></h2>
+          <small class="text-muted">
+            Use this form to complete inventory orders.
+          </small>
+        </div>
+  
+        <!-- main content -->
+        <div>
+          <h3>Submission Confirmation Page</h3>
+          <h4></h4>
+
+          <script type="text/javascript">
+              /* <![CDATA[ */
+              var formData = location.search;
+              formData = formData.substring(1, formData.length);
+              while (formData.indexOf("+") != -1) {
+                formData = formData.replace("+", " ");
+              }
+              formData = unescape(formData);
+              var formArray = formData.split("&");
+              document.write("<p>");
+              for (var i=0; i < formArray.length; ++i) {
+                document.writeln(formArray[i] + "<br />");
+              }
+              document.write("</p>");
+              /* ]]> */
+          </script>
+        </div>
+    
+          <!-- footer -->
+        <hr>
+        <footer class="margin-tb-3">
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Copyright © Matt-Mo 2015</p>
+              <b>Page Designed By: </b><a href="https://github.com/matt-mo" target="_blank">Matt Mo</a>.
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- END container -->
+    </div>
+    </div>
+      <!--Main page script-->
+      <!-- Menu Toggle Script -->
+      <script>
+        $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+        $("#wrapper").toggleClass("toggled");});
+      </script>
+    </body>
+</html>

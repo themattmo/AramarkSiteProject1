@@ -1,0 +1,1010 @@
+[
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "1A24D234",
+    "item_name": "Twix",
+    "item_price": 0.99,
+    "item_sold": 10,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "5AS4D432",
+    "item_name": "Cheetos",
+    "item_price": 2.99,
+    "item_sold": 9,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "2B3487NC",
+    "item_name": "Beef Jerkey",
+    "item_price": 5.99,
+    "item_sold": 12,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "9VH42KF3",
+    "item_name": "Diet Coke",
+    "item_price": 1.99,
+    "item_sold": 15,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "29K486HF",
+    "item_name": "Takis",
+    "item_price": 2.99,
+    "item_sold": 30,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "JG3D968J",
+    "item_name": "Pepsi",
+    "item_price": 1.99,
+    "item_sold": 13,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "948RJD03",
+    "item_name": "Iced Coffee",
+    "item_price": 3.99,
+    "item_sold": 24,
+    "item_datesold": "01-01-2015"
+  },
+  {
+    "item_id": "74FD648F",
+    "item_name": "Monster Energy",
+    "item_price": 3.52,
+    "item_sold": 23,
+    "item_datesold": "01-01-2015"
+  }
+]

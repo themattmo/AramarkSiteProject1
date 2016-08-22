@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Matt Morris - Aramark Home</title>
+    <meta charset="utf-8">
+    <!-- viewport for bootstrap css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <script data-require="jquery" data-semver="2.1.3" src="http://code.jquery.com/jquery-2.1.3.js"></script>
+    <script data-require="bootstrap" data-semver="3.2.0" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.js"></script>
+    
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="aramark.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css">
+    
+    
+    
+    <!-- icons -->
+    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    function validateSubmission() {
+      var retValue = true;
+      if (document.forms[0].subject.value.length > 40) {
+        window.alert("The subject must be 40 characters or less!");
+        return false;
+      } else if (document.forms[0].sender_email.value == "" || document.forms[0].recipient_email.value == "" || document.forms[0].subject.value == "") {
+        window.alert("You did not fill in one of the following required fields: sender e-mail, recipient e-mail, or subject");
+        return false;
+      }
+      if (retValue == false)
+        return retValue;
+      retValue = validateEmail(document.forms[0].sender_email);
+      if (retValue == false)
+        return retValue;
+      var recipientsArray = new Array();
+      for (var i = 0; i < document.forms[0].recipients.options.length; ++i) {
+        recipientsArray.push(document.forms[0].recipients.options[i].value);
+      }
+      document.forms[0].recipientsList.value = recipientsArray.join(";");
+    }
+
+    function validateEmail(formObject) {
+      var email = formObject.value;
+      if (/@/.test(email) == false || /\....$/.test(email) == false) {
+        window.alert("One or more of the e-mail addresses you entered does not appear to be valid.");
+        return false;
+      }
+      formObject.value = email.toLowerCase();
+      return true;
+    }
+
+    function addRecipient() {
+      if (document.forms[0].recipient_name.value == "" || document.forms[0].recipient_email.value == "")
+        window.alert("You must enter the recipient's name and e-mail address.");
+      else {
+        retValue = validateEmail(document.forms[0].recipient_email);
+        if (retValue == false)
+          return retValue;
+        if (document.forms[0].recipients.options[0] && document.forms[0].recipients.options[0].value == "recipients")
+          document.forms[0].recipients.options[0] = null;
+        var recipientsArray = new Array();
+        for (var i = 0; i < document.forms[0].recipients.options.length; ++i) {
+          recipientsArray.push(document.forms[0].recipients.options[i].value);
+        }
+        recipientsArray.push(document.forms[0].recipient_name.value + ", " + document.forms[0].recipient_email.value);
+        for (var j = 0; j < recipientsArray.length; ++j) {
+          var createRecipient = new Option(recipientsArray[j], recipientsArray[j]);
+          document.forms[0].recipients.options[j] = createRecipient;
+        }
+      }
+    }
+
+    function deleteRecipient() {
+      var recipientsArray = new Array();
+      for (var i = 0; i < document.forms[0].recipients.options.length; ++i) {
+        recipientsArray.push(document.forms[0].recipients.options[i].value);
+      }
+      if (document.forms[0].recipients.selectedIndex == 0)
+        recipientsArray.shift();
+      else if (document.forms[0].recipients.selectedIndex == document.forms[0].recipients.options.length - 1)
+        recipientsArray.pop();
+      else
+        recipientsArray.splice(document.forms[0].recipients.selectedIndex, 1);
+      document.forms[0].recipients.options.length = 0;
+      for (var j = 0; j < recipientsArray.length; ++j) {
+        var createRecipient = new Option(recipientsArray[j], recipientsArray[j]);
+        document.forms[0].recipients.options[j] = createRecipient;
+      }
+    }
+
+    function getRecipientInfo() {
+      var selectedIndex = document.forms[0].recipients.selectedIndex;
+      var recipientInfo = document.forms[0].recipients.options[selectedIndex].value;
+      var infoArray = recipientInfo.split(", ");
+      document.forms[0].recipient_name.value = infoArray[0];
+      document.forms[0].recipient_email.value = infoArray[1];
+    }
+
+    function updateSelectedRecipient() {
+      var selectedIndex = document.forms[0].recipients.selectedIndex;
+      document.forms[0].recipients.options[selectedIndex].value = document.forms[0].recipient_name.value + ", " + document.forms[0].recipient_email.value;
+      document.forms[0].recipients.options[selectedIndex].text = document.forms[0].recipient_name.value + ", " + document.forms[0].recipient_email.value;
+    }
+    /* ]]> */
+  </script>
+  </head>
+    <!-- begin intialization of ungular application -->
+    <body>
+      <!-- Navigation -->
+      <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container-fluid">
+  
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#menu-toggle" id="menu-toggle">Toggle Menu</a>
+          </div>
+          <!-- /.navbar-header -->
+  
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div style="margin-left: 15%" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="http://www.aramark.com/">Aramark Home</a></li>
+              <li><a href="http://phx.corporate-ir.net/phoenix.zhtml?c=130030&p=irol-financialreports">Aramark Financial Reports</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+      <!-- /.navbar -->    
+
+       <div id="wrapper">
+         
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Links
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.oracle.com/index.html">Oracle</a>
+                </li>
+                <li>
+                    <a href="http://www.aramark.com.mx/">Aramark Mexico</a>
+                </li>
+                <li>
+                    
+                    <!-- external javascript for validation 
+
+                          IT FIT BETTER HERE -->  
+                    <script src="../validation.js"></script>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+        <!-- START container -->
+      
+      <div id="page-content-wrapper">
+      <div class="container">
+
+  
+        <!-- header -->
+        <div class="page-header">
+          <h2><b>Aramark Home</b><a href="morrisProject2.html"><img style="float: right" src="images/aramark_logo.png" alt="ARAMARK"></a></h2>
+          <small class="text-muted">
+            Welcome. This project is part 2 of my beginning web programming course. Click the Aramark logo to return to this page
+          </small>
+        </div>
+  
+        <!-- main content -->
+        <form action="FormProcessor.html" method="get" onsubmit="return validateSubmission()">
+                <table>
+                  <tr>
+                    <td valign="top">
+                      <h2>
+                                            Sender</h2>
+                      <p>
+                        Name
+                        <br />
+                        <input type="text" name="sender_name" size="30" />
+                      </p>
+                      <p>
+                        E-Mail Address
+                        <br />
+                        <input type="text" name="sender_email" size="30" />
+                      </p>
+                      <h2>
+                                            Recipients</h2>
+                      <p>
+                        Name
+                        <br />
+                        <input type="text" name="recipient_name" size="30" />
+                      </p>
+                      <p>
+                        E-Mail Address
+                        <br />
+                        <input type="text" name="recipient_email" size="30" />
+                      </p>
+                      <p>
+                        <input type="button" value="Add" onclick="addRecipient()" />&nbsp;
+                        <input type="button" value="Remove" onclick="deleteRecipient()" />&nbsp;
+                        <input type="button" value="Update" onclick="updateSelectedRecipient()" />
+                      </p>
+                      <select name="recipients" size="4" style="width: 200px" onclick="getRecipientInfo()">
+                        <option value="recipients">Recipients</option>
+                      </select>
+                    </td>
+                    <td valign="top">
+                      <h2>
+                                            Message Details</h2>
+                      <p>
+                        Subject
+                        <br />
+                        <input type="text" name="subject" size="42" />
+                      </p>
+                      <p>
+                        Message
+                        <br />
+                        <textarea name="message" rows="14" cols="32"></textarea>
+                      </p>
+                      <p style="text-align: center">
+                        <input type="submit" value="Send" />
+                        <input type="reset" />
+                        <input type="hidden" name="recipientsList" />
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </form>
+    
+          <!-- footer -->
+        <hr>
+        <footer class="margin-tb-3">
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Copyright © Matt-Mo 2015</p>
+              <b>Page Designed By: </b><a href="https://github.com/matt-mo" target="_blank">Matt Mo</a>.
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- END container -->
+    </div>
+    </div>
+      <!--Main page script-->
+      <!-- Menu Toggle Script -->
+      <script>
+        $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+        $("#wrapper").toggleClass("toggled");});
+      </script>
+    </body>
+</html>
